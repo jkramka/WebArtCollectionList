@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add a new art work.</title>
+</head>
+<style>
+a:link {
+color: red;
+font-family: verdana;
+}
+a:visited {
+color: blue;
+font-family: verdana;
+}
+a:hover {
+color: pink;
+font-family: verdana;
+}
+a:active {
+color: yellow;
+font-family: verdana;
+}
+</style>
+<body>
+	<form action = "addItemServlet" method="post">
+		Artist: <input type ="text" name = "artist"><br/>
+		<br/>
+		Item  : <input type = "text" name = "item"><br/>
+		<br/>
+		Year  : <input type = "text" name = "year"><br/>
+		<br/>
+		<input type = "submit" value="Add Item">
+	</form>
+	<br/>
+<a href ="index.html"> Back to List</a><br />
+<a href = "viewAllItemsServlet">View complete list</a>
+<br />
+<a href = "index.html">Home</a>
+</body>
+</html>
